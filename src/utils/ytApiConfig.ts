@@ -22,6 +22,6 @@ export async function makeYouTubeAPICall(url: string, params: Record<string, any
       part: "snippet",
       videoId: videoId,
       textFormat: "plainText",
-      maxResults: 5, // Fetch up to 20 comments
+      maxResults: 50, // Fetch up to 20 comments
     });
   }
